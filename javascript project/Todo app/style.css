@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+   background: rgb(122,184,126);
+background: linear-gradient(90deg, rgba(122,184,126,1) 0%, rgba(43,134,189,1) 100%);
+}
+header h1{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 3rem; 
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.todo_container{
+   margin: 130px auto;
+   width: 100%;
+   max-width: 400px;
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   
+}
+
+.todo_container .todo_part{
+    margin-top: 1.5rem;
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+ input{
+    padding: 5px 10px;
+    width: 85%;
+    text-align: center;
+    height: 100%;
+    font-size: 1rem;
+   
+   
+    
+}
+input:active{
+    outline: none;
+    border: #fff;
+}
+.todo_part button{
+    width: 60px;
+   height: 100%;
+   font-size: 40px;
+   font-weight: bold;
+   background: blueviolet;
+   border: none;
+   color: white;
+   margin-left: .67rem;
+   
+
+}
+.todo_part button:active{
+    background-color: rgb(64, 8, 117);
+}
+
+
+
+ul li{
+    list-style: none;
+    padding: .5rem .5rem .5rem 2rem;
+    margin-top: 1rem;
+    background: rgb(233, 227, 227);
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .todo_list li span{
+    font-size: 30px;
+    float: right;
+    color: orange;
+    /* visibility: hidden; */
+     
+}
+
+ /* .todo_list li:hover span{
+    visibility: visible;
+} */
+ li span:active{
+     color: rgb(150, 99, 6) ;
+ }
+ul li{
+    color: purple;
+    
+}
+.todo_container .footer {
+    margin-top: 20px;
+    /* padding: 2rem 0 .5rem 1rem; */
+   
+   display: flex;
+   justify-content: space-evenly;
+    color: rgb(194, 204, 52);
+}
+.footer button{
+   background-color: cyan;
+    padding: .45rem;
+   border: none;
+   border-radius: .3rem;
+   cursor: pointer;
+}
+.footer button:active{
+    background-color: rgb(9, 134, 134);
+}

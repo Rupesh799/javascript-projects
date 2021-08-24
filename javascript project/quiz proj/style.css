@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+     font-family: 'Poppins', sans-serif;
+    position: relative;
+    background-repeat: no-repeat;
+  
+ 
+     
+}
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+.container{
+   
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    place-items: center;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+.quizcontent{
+    width: 40vw;
+    background-color: #fff;
+     border-radius: 5px;
+      box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+      overflow: hidden;
+      margin-bottom: 9rem;
+}
+
+h3{
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+    padding: 2rem 0 .06rem 3rem;
+    
+}
+ul li{
+    padding: .5rem;
+    
+    
+    /* padding-top: .2rem; */
+}
+
+input{
+    cursor:pointer;
+}
+
+ .btn{
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    background-color:purple;
+    border: none; 
+    font-size: 20px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    display: block;
+    margin-top: 1.52rem;
+
+}
+.lbl{
+    font-size: 15px;
+    
+    font-weight: bold;
+}

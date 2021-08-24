@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.calculator_container{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+}
+.calculator_part{
+    height: 470px;
+    width:300px;
+     background: rgb(22, 15, 15);
+    box-shadow: 0 8px 32px 0 rgba(8, 9, 17, 0.37);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(31, 11, 11, 0.18);
+}
+input {
+    width: 100%;
+    height: 50px;
+    margin: 1rem 0;
+    border-radius: 7px;
+    border: none;
+     /* background: rgba( 255, 255, 255, 0.50 ); */
+     color: black;
+     font-size: 30px;
+     text-align: right;
+     box-shadow: inset -5px -5px 12px  rgba( 255, 255, 255, 0.50 ),
+                 inset 5px 5px   12px rgba(0,0 ,0,0.16) ;
+}
+input:active{
+    border: none;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    padding: 0.3rem;
+     float: left;
+     height: 50px;
+    width: 50px;
+    border-width: 0;
+    margin-left: 14px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+}
+button:active{
+    font-size: 20px;
+}
+button:nth-child(20){
+    background: silver;
+    border-radius: 5px;
+    width: 110px;
+}

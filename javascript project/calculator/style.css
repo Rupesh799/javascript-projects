@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+body{
+     
+    background: #56957e;
+    background: linear-gradient(120deg,#56957e 0%, #00e7ff 80%);
+    background: -webkit-linear-gradient(120deg,#56957e 0%, #00e7ff 80%);
+    background: -moz-linear-gradient(120deg,#56957e 0%, #00e7ff 80%);
+}
+.calc-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.calcultor-part{
+    height: 75vh;
+    width: 23vw;
+   
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba(8, 9, 17, 0.37);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(31, 11, 11, 0.18);
+
+   /* overflow: scroll; */
+   position: relative;
+  
+}
+#result{
+    height: 13vh ;
+   
+
+}
+
+#history{
+   text-align: right;
+   margin: 20px 40px 0 0;
+   padding-top: 20px;
+   
+}
+#history p{
+    font-weight: lighter;
+    color: gray;
+   
+}
+#output{
+   text-align: right;
+    margin: 20px 40px 0 0;
+}
+#output p{
+    font-size: 2.5rem;
+    font-weight: 30px;
+ text-align: right;
+   
+    /* background-color: blue; */
+
+}
+
+
+
+#keyboard{
+    height: 60vh;
+    width: 23vw;
+    /* background-color: crimson; */
+    
+    
+}
+.operator,.number,.empty{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 18px;
+    border-radius: 50%;
+    border-width: 0;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.operator{
+     background: rgba( 255, 255, 255, 0.50 );
+}
+.number:active,.operator:active{
+    font-size: 15px ;
+   
+}
+button:nth-child(4){
+    background-color: blueviolet;
+    font-size: 30px;
+}
+button:nth-child(8){
+    background-color: goldenrod;
+    font-size: 30px;
+}
+button:nth-child(12){
+    background-color: rgba(7, 238, 199, 0.945);
+    font-size: 30px;
+}
+button:nth-child(16){
+    background-color: rgba(19, 180, 243, 0.87);
+    font-size: 30px;
+}
+
+
+
+
